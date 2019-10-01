@@ -1,0 +1,268 @@
+.body {
+	height: 100%;
+	padding: 5px;
+
+}
+
+.navbar {
+	margin-bottom: 30px;
+}
+
+.navbar-default {
+   background-color: #4A86B5;
+   color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+    color: #0F69AD;
+	background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  background-color: #0F69AD;
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #4A86B5;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #0F69AD;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #0F69AD;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #0F69AD;
+    color: #ffffff;
+}
+
+.dropdown-menu {
+    background-color: #4A86B5;
+}
+
+.dropdown-menu > li > a {
+  color: #FFFFFF;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #FFFFFF;
+  background-color: #0F69AD;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #0F69AD;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #FFFFFF;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #FFFFFF;
+    background-color: #0F69AD;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #0F69AD;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #FFFFFF;
+    background-color: #0F69AD;
+  }
+}
+
+.clear{
+clear:both;
+}
+
+/* Set the fixed height of the footer here */
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer {
+  height: 60px;
+  color:#000000;
+  background-color: #F5F5F5;
+}
+
+#footer a
+{
+  color:#000000;
+}
+
+#footer > .container 
+{
+  background-color: #F5F5F5;
+}
+
+.code
+{
+  font-size: 80%;
+}
+.body
+{
+background-image:url('');
+background-repeat:repeat;
+}
+
+
+.carousel-control
+{
+  position: absolute;
+  top: 40%;
+  left: 8px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 23px;
+          border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.carousel-inner 
+{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+ 
+.breadcrumb
+{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding-right: 0;
+    position: relative;
+    top: 9px;
+
+}
+
+ 
+.breadcrumbs a
+{
+text-decoration: none;
+}
+
+.view
+
+{
+
+clear:both;
+}
+
+
+.view2
+
+{
+
+clear:both;
+}
+
+
+
+.view > a > img 
+{
+ 
+    margin-left: 20px;
+	margin-bottom: 20px;
+    position: relative;
+    transition: all 0.6s ease-in-out 0s;
+} 
+
+.view2 > a > img 
+{
+	left:-20px;
+    margin-left: 10px;
+	position: relative;
+    transition: all 0.6s ease-in-out 0s;
+}
+
+.navbar-nav li a span#google_translate_element{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+}
+
+.goog-te-gadget-simple{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 2px 08px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 2px 08px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
